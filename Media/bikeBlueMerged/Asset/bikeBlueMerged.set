@@ -1,0 +1,16 @@
+[node 0]
+type = model
+name = bikeBlueMerged
+parent = -1
+matrixColumn0 = 1 0 -0 0
+matrixColumn1 = 0 1 -0 0
+matrixColumn2 = -0 -0 1 -0
+matrixColumn3 = 0 0 0 1
+BoundingBoxCenter = 1.21027 42.2508 -0 
+BoundingBoxHalf = 100.113 42.2508 29.5262 
+meshcount = 5 
+material0 = grayColor1
+material1 = blueColor
+material2 = blackColor1
+material3 = whiteColor1
+material4 = blackColor

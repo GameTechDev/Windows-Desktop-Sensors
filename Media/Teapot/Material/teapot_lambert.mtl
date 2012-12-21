@@ -1,0 +1,8 @@
+texture0 = checker_20x.dds
+VertexShaderFile    = $DefaultShader
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = $DefaultShader
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

@@ -1,0 +1,8 @@
+texture_EM = skyWalls.png
+VertexShaderFile    = skyBox.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = skyBox.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

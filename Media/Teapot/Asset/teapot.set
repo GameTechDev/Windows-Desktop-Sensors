@@ -1,0 +1,55 @@
+[node 0]
+type = null
+name = exportGroup
+parent = -1
+matrixColumn0 = 1 0 -0 0
+matrixColumn1 = 0 1 -0 0
+matrixColumn2 = -0 -0 1 -0
+matrixColumn3 = 0 0 0 1
+[node 1]
+type = model
+name = teapot
+parent = 0
+matrixColumn0 = -0.965926 0 0.258819 0
+matrixColumn1 = 0 1 -0 0
+matrixColumn2 = -0.258819 -0 -0.965926 -0
+matrixColumn3 = 0 0 0 1
+BoundingBoxCenter = 1.08288 7.875 -0 
+BoundingBoxHalf = 16.0829 7.875 10 
+meshcount = 1 
+material0 = teapot_lambert
+[node 2]
+type = camera
+name = camera1
+parent = 0
+matrixColumn0 = 0.692143 -0.38395 -0.611163 21.203
+matrixColumn1 = -1.92495e-017 0.846767 -0.531963 23.1556
+matrixColumn2 = 0.72176 0.368195 0.586084 -18.5414
+matrixColumn3 = 0 0 0 1
+UpVector = -0.38395 0.846767 0.368195 
+Position = 21.203 23.1556 -18.5414 
+InterestPosition = -0.664772 4.12166 2.42901 
+FieldOfView = 25.115 
+NearPlane = 0.1 
+FarPlane = 10000 
+[node 3]
+type = light
+name = pointLight1
+parent = 0
+matrixColumn0 = 1 0 -0 18.876
+matrixColumn1 = 0 6.12323e-017 -1 39.349
+matrixColumn2 = -0 1 6.12323e-017 -31.485
+matrixColumn3 = 0 0 0 1
+lighttype = point
+decay = none
+Color = 1 1 1 
+Intensity = 100 
+HotSpot = 0 
+ConeAngle = 45 
+DecayStart = 0 
+EnableNearAttenuation = false
+EnableFarAttenuation = false
+NearAttenuationStart = 0 
+NearAttenuationEnd = 0 
+FarAttenuationStart = 0 
+FarAttenuationEnd = 0 

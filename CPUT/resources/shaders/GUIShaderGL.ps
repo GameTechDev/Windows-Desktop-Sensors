@@ -1,0 +1,15 @@
+// minimal.frag
+#version 150 core
+
+uniform sampler2D diffuseTexture;
+
+in vec2 texCoord0;
+out vec4 out_Color;
+
+void main(void)
+{
+		out_Color = texture2D(diffuseTexture, texCoord0.st);	
+		//out_Color = vec4(1.0, 1.0, 1.0, 0.7);	
+}
+
+

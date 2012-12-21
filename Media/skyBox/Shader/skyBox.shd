@@ -1,0 +1,1 @@
+emissive = texture( name="texture_EM", uv=uv0 * 1 )
